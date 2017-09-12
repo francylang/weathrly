@@ -1,0 +1,7 @@
+
+.currentContainer {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}

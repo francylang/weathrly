@@ -1,0 +1,19 @@
+
+.dailyContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+
+.dailyForecast {
+  color: #C6C7C8;
+  font-family: sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.dailyCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

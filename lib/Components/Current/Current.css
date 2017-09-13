@@ -2,6 +2,12 @@
 .currentContainer {
   border: 1px solid blue;
   display: flex;
-  justify-content: center;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.currentTemp {
+  font-size: 90px;
+  color: white;
 }

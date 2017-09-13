@@ -1,0 +1,31 @@
+.card {
+  height: 250px;
+  width: 150px;
+  margin: 25px 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dayHigh,
+.dayLow,
+.day {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+.dayHigh,
+.dayLow {
+  font-size: 32px;
+}
+
+.day {
+  font-size: 25px;
+}
+
+.cardImg {
+  height: 100px;
+  width: 100px;
+}

@@ -1,8 +1,15 @@
+.dailyCardContainer {
+  border: 3px solid black;
+  width: 66%;
+}
+
+
+
 .card {
   height: 250px;
   width: 150px;
   margin: 25px 5px;
-  border: 1px solid white;
+  border: 2px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,9 +30,4 @@
 
 .day {
   font-size: 25px;
-}
-
-.cardImg {
-  height: 100px;
-  width: 100px;
 }

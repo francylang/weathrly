@@ -5,15 +5,8 @@
   border: 1px solid red;
 }
 
-.dailyForecast {
-  color: #C6C7C8;
-  font-family: sans-serif;
-  font-size: 36px;
-  text-align: center;
-}
-
-.dailyCardContainer {
+/*.dailyCardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+}*/

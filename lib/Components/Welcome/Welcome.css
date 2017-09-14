@@ -5,9 +5,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-image: url('https://thinkingoutloudagain.files.wordpress.com/2014/12/beautiful_day_by_dr4kon.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /*background-image: url('https://thinkingoutloudagain.files.wordpress.com/2014/12/beautiful_day_by_dr4kon.jpg');*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
 }
 
 .welcomeText {

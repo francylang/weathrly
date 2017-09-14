@@ -1,7 +1,13 @@
 
 .searchContainer {
-    border: 1px solid blue;
+  display: flex;
+  align-self: flex-start;
+  position: relative;
+  min-height: 35px;
+  height: 35px;
 }
+
+
 
 .input-button-container {
   display: flex;
@@ -9,6 +15,7 @@
   flex-direction: row;
 
 }
+
 .search-button {
   color: #fff;
   background-color: lightblue;

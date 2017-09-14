@@ -2,9 +2,11 @@
 .searchContainer {
   display: flex;
   align-self: flex-start;
-  position: relative;
+  flex-wrap: wrap;
+  /*position: relative;
   min-height: 35px;
-  height: 35px;
+  height: 35px;*/
+  margin: 0;
 }
 
 

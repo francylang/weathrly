@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid green;
   /*background-image: url('https://thinkingoutloudagain.files.wordpress.com/2014/12/beautiful_day_by_dr4kon.jpg');*/
   /*background-repeat: no-repeat;*/
   /*background-size: cover;*/

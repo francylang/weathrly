@@ -2,7 +2,6 @@
   border: 2px solid white;
   display: flex;
   flex-direction:column;
-  align-items: flex-end;
   justify-content: space-between;
   height: 100%;
   width: 33%;
@@ -10,6 +9,22 @@
   color: #fff;
   background: linear-gradient(0deg, #2B32B2, #1488CC 40%,#2193b0 );
   height: 100vh;
+}
+
+.city {
+  font-size: 40px;
+}
+
+.currentTemp {
+  font-size: 120px;
+}
+
+.high-low {
+  font-size: 20px;
+}
+
+.weatherSummary {
+  font-size: 24px;
 }
 
 .topCard,

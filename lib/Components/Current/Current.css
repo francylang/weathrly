@@ -13,18 +13,25 @@
 
 .city {
   font-size: 40px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .currentTemp {
+  position: relative;
   font-size: 120px;
 }
 
 .high-low {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .weatherSummary {
+  width: 85%;
   font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .topCard,
@@ -33,8 +40,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.weatherSummary {
-
 }

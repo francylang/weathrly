@@ -1,44 +1,45 @@
 .hourlyCard {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 8px;
+  padding: 5px 20px;
   color: #979797;
   font-size: 15px;
 }
 
-.hourlyCard {
-  font-size: 16px;
-}
-
 .time {
+  font-size: 15px;
+
   display: flex;
   align-items: flex-start;
 }
 
 /*.condition {
-
-}
-
-.icon-ctnr {
-  display: flex;
-
-}
-
-.icon {
+  justify-content: flex-end;
 
 }*/
 
+/*.hourlyIcon {
+  height: 10px;
+}*/
+
+.icon-ctnr {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+
+
+
 .temp {
-  font-size: 24px;
+  font-size: 20px;
+  width: 80px;
   text-align: right;
 
 }
-
+/*
 .dayHigh,
 .dayLow,
 .day {
   background-color: #ffffff;
   font-family: sans-serif;
-}
+}*/

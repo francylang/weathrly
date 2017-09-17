@@ -6,6 +6,12 @@
   font-size: 15px;
 }
 
+.hourlyCard:hover {
+  color: #4A90E2;
+  font-weight: bold;
+
+}
+
 .time {
   font-size: 15px;
 
@@ -34,6 +40,8 @@
   font-size: 20px;
   width: 80px;
   text-align: right;
+  color: #4A90E2;
+
 
 }
 /*

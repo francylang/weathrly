@@ -1,9 +1,6 @@
 .dailyCardContainer {
-  display: inline-block;
-  /*align-items: center;
-  justify-content: center;*/
-  /*flex-direction: column;*/
-  flex-wrap: wrap;
-  border: 3px solid red;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 3px solid blue;
+  width: 33%;
 }

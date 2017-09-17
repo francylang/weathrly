@@ -1,7 +1,9 @@
+
 .hourlyCard {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
+  margin: 5px 15px;
   color: #979797;
   font-size: 15px;
 }

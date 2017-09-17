@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .mobileCard {
   border: 2px solid white;
   display: flex;
@@ -12,19 +16,30 @@
 }
 
 .city {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
 
 .currentTemp {
-  position: relative;
-  font-size: 120px;
+  /*position: relative;*/
+  font-size: 80px;
+
+}
+
+.currentTime {
+  font-size: 60px;
+
+}
+
+.icon {
+  height: 120px;
+  width: 120px;
 }
 
 .high-low {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .weatherSummary {

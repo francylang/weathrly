@@ -1,6 +1,5 @@
-.hourlyCardContainer {
+.hourly-container {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  border: 3px solid orange;
-  width: 33%;
+  flex-direction: row;
 }

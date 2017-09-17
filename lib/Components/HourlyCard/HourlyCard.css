@@ -1,21 +1,23 @@
-
-
 .hourlyCard {
   display: flex;
-  align-items: center;
   justify-content: center;
   justify-content: space-between;
-  font: 20px;
-  border: 3px solid green;
-  /*width: 100%;*/
-
+  align-items: center;
+  padding: 10px 8px;
+  color: #979797;
+  font-size: 15px;
 }
-/*
+
+.hourlyCard {
+  font-size: 16px;
+}
+
 .time {
-
+  display: flex;
+  align-items: flex-start;
 }
 
-.condition {
+/*.condition {
 
 }
 
@@ -26,35 +28,17 @@
 
 .icon {
 
-}
+}*/
 
 .temp {
+  font-size: 24px;
+  text-align: right;
 
-}*/
+}
 
-/*.card {
-  height: 250px;
-  width: 150px;
-  margin: 25px 5px;
-  border: 2px solid purple;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}*/
-
-/*.dayHigh,
+.dayHigh,
 .dayLow,
 .day {
   background-color: #ffffff;
   font-family: sans-serif;
 }
-
-.dayHigh,
-.dayLow {
-  font-size: 32px;
-}*/
-
-/*.day {
-  font-size: 25px;
-}*/

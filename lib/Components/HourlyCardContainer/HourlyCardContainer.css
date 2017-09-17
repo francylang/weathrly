@@ -1,7 +1,6 @@
-.dailyCardContainer {
-
+.hourlyCardContainer {
   display: flex;
   justify-content: center;
-  border: 3px solid blue;
+  border: 3px solid orange;
   width: 33%;
 }

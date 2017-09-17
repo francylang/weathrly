@@ -5,7 +5,7 @@
 
 .weatherApp {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
@@ -18,9 +18,11 @@
 .cardContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  /*align-items: center;*/
   /*flex-wrap: wrap;*/
   width: 60%;
-  height: 100vh;
-  margin-top: 20px;
+  /*height: 100vh;*/
+  /*margin-top: 20px;*/
   background-color: #F5F7FA;
 }

@@ -1,5 +1,7 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: lighter;
 }
 
 .mobileCard {
@@ -11,42 +13,50 @@
   width: 33%;
   padding: 20px;
   color: #fff;
-  background: linear-gradient(0deg, #2B32B2, #1488CC 40%,#2193b0 );
+  background: linear-gradient(0deg, #4A90E2, #1488CC 40%, #4A90E2 );
   height: 100vh;
 }
 
 .city {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 300;
   text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  padding-bottom: 20px;
 }
 
 .currentTemp {
-  /*position: relative;*/
   font-size: 80px;
-
+  font-weight: lighter;
+  text-align: center;
+  margin: 20px 0 ;
 }
 
 .currentTime {
-  font-size: 60px;
-
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 20px 0 ;
 }
 
 .icon {
   height: 120px;
   width: 120px;
+  margin-bottom: 20px;
 }
 
 .high-low {
-  font-size: 30px;
-  /*margin-bottom: 30px;*/
+  font-size: 25px;
+  margin-bottom: 20px;
+
 }
 
 .weatherSummary {
   width: 85%;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 10px;
+  font-weight: lighter;
 }
 
 .topCard,

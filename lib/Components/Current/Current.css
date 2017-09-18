@@ -8,12 +8,13 @@
   display: flex;
   flex-direction:column;
   align-items: center;
+  justify-content: center;
   /*height: 100%;*/
   /*width: 40%;*/
   /*padding: 30px 10px;*/
   color: #fff;
-  background: linear-gradient(0deg, #4A90E2, #4A90E2 40%, #4A90E2 );
   /*height: 100vh;*/
+
 }
 
 .city {

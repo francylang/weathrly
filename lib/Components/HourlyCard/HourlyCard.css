@@ -16,19 +16,9 @@
 
 .time {
   font-size: 15px;
-
   display: flex;
   align-items: flex-start;
 }
-
-/*.condition {
-  justify-content: flex-end;
-
-}*/
-
-/*.hourlyIcon {
-  height: 10px;
-}*/
 
 .icon-ctnr {
   display: flex;
@@ -43,13 +33,4 @@
   width: 80px;
   text-align: right;
   color: #4A90E2;
-
-
 }
-/*
-.dayHigh,
-.dayLow,
-.day {
-  background-color: #ffffff;
-  font-family: sans-serif;
-}*/

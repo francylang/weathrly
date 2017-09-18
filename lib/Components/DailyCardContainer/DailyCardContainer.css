@@ -1,11 +1,13 @@
 .daily-CardContainer {
   /*width: 100%;*/
+  /*padding-left: 10px;*/
+  padding-top: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  /*align-items: center;
-  justify-content: center;*/
+  align-items: center;
+  /*justify-content: center;*/
 }
 
 .hrTwo {

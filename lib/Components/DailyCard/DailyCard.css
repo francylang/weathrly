@@ -1,16 +1,16 @@
 .card {
-  width: 15%;
-  margin:10px;
+  width: 16%;
+  margin:9px ;
   border: 1px solid #979797;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 15px;
   outline: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  padding: 10px;
+  padding: 8px;
   background-color: #F5F7FA;
 }
 
@@ -25,7 +25,7 @@
   font-family: sans-serif;
   font-size: 10px;
   color: #979797;
-  padding: 10px 0;
+  /*padding: 5px 0;*/
 }
 
 .dayHigh,
@@ -36,7 +36,7 @@
 }
 
 .day {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
 
 }
@@ -46,13 +46,14 @@
 }
 
 .dailyWeatherIcons {
-  font-size: 40px;
+  font-size: 30px;
   margin: 5px 0px;
   color: #979797;
 }
 
 .dayCondition {
   color: #979797;
-  font-size: 14px;
+  text-align: center;
+  font-size: 12px;
   margin: 5px;
 }

@@ -6,22 +6,26 @@
 .weatherApp {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
-  width: 100%;
-  height: 100vh;
   background-color: #F5F7FA;
 
+}
+
+.mainCard {
+  display: flex;
+  flex-direction:column;
+  /*width: 40%;*/
+  padding: 30px 10px;
+  color: #fff;
+  background: linear-gradient(0deg, #4A90E2, #1488CC 40%, #4A90E2 );
 }
 
 .cardContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   /*align-items: center;*/
   /*flex-wrap: wrap;*/
-  width: 60%;
+  /*width: 60%;*/
   /*height: 100vh;*/
   /*margin-top: 20px;*/
   background-color: #F5F7FA;

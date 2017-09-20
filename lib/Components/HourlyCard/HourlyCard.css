@@ -6,6 +6,7 @@
   color: #979797;
   justify-content: space-between;
   margin-top: 10px;
+  z-index: 1;
 
 
 }
@@ -16,10 +17,22 @@
 
 }
 
-.time {
+.timeCtnr {
   font-size: 15px;
   display: flex;
   align-items: flex-start;
+}
+
+.hourTime {
+  width: 100%;
+}
+
+.conditionCtnr {
+  display: flex;
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
+  width: 100%;
 }
 
 .nameCondition {
@@ -30,23 +43,18 @@
 
 }
 
-.conditionWords {
+.iconsCtnr {
   display: flex;
-  margin: 0;
-  text-align: left;
-  font-size: 15px;
+  font-size: 25px;
 }
 
-
+.tempCtnr {
+  
+}
 
 .temp {
   color: #4A90E2;
   font-size: 24px;
   /*width: 55px;*/
   text-align: right;
-}
-
-.hourlyweatherIcons {
-  display: flex;
-  font-size: 25px;
 }

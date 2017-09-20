@@ -6,10 +6,10 @@ import { shallow, mount } from 'enzyme';
 
 let mockData = {
   day: {
-      sevenHourTime: ['1pm', '2pm'],
-      sevenHourTemp: ['90', '80'],
-      tenDayIcon: ['tstorms', 'rain'],
-      sevenDayCondition: ['sunny', 'cloudy'],
+    sevenHourTime: ['1pm', '2pm'],
+    sevenHourTemp: ['90', '80'],
+    tenDayIcon: ['tstorms', 'rain'],
+    sevenDayCondition: ['sunny', 'cloudy'],
   }
 
 };
@@ -28,10 +28,16 @@ describe('Card Functionality', () => {
 
 
    it('it should render multiple Hourly Cards', () => {
-     const hourlyCards = wrapper.find('HourlyCard');
+     const shallowWrapper = shallow (
+       <HourlyCardContainer
+         {...mockData}
+           hour={['1pm','2pm']}
+       />
+     )
+     console.log(shallowWrapper.debug());
+     const hourlyCards = shallowWrapper.find('HourlyCard');
      expect(hourlyCards.length).toEqual(2);
    });
-
 
 
 });

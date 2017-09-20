@@ -27,14 +27,8 @@ it('should render time', () => {
 
 it('should render daily temps', () => {
   const dayTempHigh = wrapper.find('.dayHigh');
-  expect(dayTempHigh.text()).toEqual('85');
+  expect(dayTempHigh.text()).toEqual('85°/ 60°');
 })
-
-
-// it('should render temp low', () => {
-//   const dayIcon = wrapper.find('.time');
-//   expect(dayIcon.text()).toEqual('');
-// })
 
 it('should render day icon', () => {
   const condition = wrapper.find('.dailyWeatherIcons');

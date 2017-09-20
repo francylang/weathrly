@@ -1,13 +1,11 @@
 .daily-CardContainer {
-  /*width: 100%;*/
-  /*padding-left: 10px;*/
-  padding-top: 0px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  /*justify-content: center;*/
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .hrTwo {
@@ -27,4 +25,12 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
 
+}
+
+@media only screen and (max-width: 650px) {
+  .daily-CardContainer {
+    flex-direction: column;
+    height: auto;
+    background-color: #F5F7FA;
+  }
 }

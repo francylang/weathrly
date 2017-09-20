@@ -1,20 +1,12 @@
 .welcomeContainer {
-  height: 25vh;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid green;
-  /*background-image: url('https://thinkingoutloudagain.files.wordpress.com/2014/12/beautiful_day_by_dr4kon.jpg');*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
+  background-color: #4A90E2;
 }
 
 .welcomeText {
   margin: 25px;
-  color: red;
-  font-family: 'Sans-Serif';
-  font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
   text-align: center;
+  color: #fff;
+  text-transform: capitalize;
 }

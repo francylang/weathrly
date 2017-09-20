@@ -39,21 +39,22 @@
   outline: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-
 }
+
 .content {
   display: flex;
   flex-direction: column;
 }
 
 .suggestions {
+  position: absolute;
   display: block;
   height: auto;
-  background-color: gray;
+  background-color: #fff;
+  color: #979797;
+  font-weight: 1000;
   z-index: 3;
   width: 260px;
-
-
 }
 
 .searchDropDown {

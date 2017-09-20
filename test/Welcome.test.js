@@ -4,19 +4,20 @@ import { shallow, mount } from 'enzyme';
 import App from '../lib/Components/App/App.js';
 
 describe('welcome page', () => {
-
   global.localStorage = {
     getItem: () => false,
   };
 
   global.fetch = jest.fn(() => {
-    return Promise.resolve({json: () => {Promise.resolve({})}})
-  })
+    return Promise.resolve({ json: () => { Promise.resolve({});
+    },
+});
+  });
 
   it('it should render welcome', () => {
     const component = shallow(<Welcome />);
     const greeting = component.find('.welcomeContainer');
-    expect(greeting.text()).toEqual('Weatherly');
+    expect(greeting.text()).toEqual('Welcome to Weatherly');
   });
 
   it('it should render search bar', () => {
@@ -24,5 +25,4 @@ describe('welcome page', () => {
     const current = component.find('Search');
     expect(current.nodes.length).toEqual(1);
   });
-
 });

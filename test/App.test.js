@@ -15,7 +15,6 @@ describe('App functionality', () => {
       return Promise.resolve({ json: () => Promise.resolve({}),
     });
     });
-      // then: () => {then: () => {}}
 
     beforeEach(() => {
       wrapper = mount(

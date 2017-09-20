@@ -13,9 +13,10 @@ describe('App functionality', () => {
     };
 
     global.fetch = jest.fn(() => {
-      return Promise.resolve({json: () => {Promise.resolve({})}})
-    })
-
+      return Promise.resolve({ json: () => Promise.resolve({}),
+    });
+    });
+      // then: () => {then: () => {}}
 
     beforeEach(() => {
       wrapper = mount(
@@ -29,7 +30,11 @@ describe('App functionality', () => {
       expect(wrapper.find('Search').length).toEqual(1);
     });
 
-  }),
+      // it('it should render Welcome component', () => {
+      //   expect(wrapper.find('.welcomeContainer').length).toEqual(1);
+      // });
+  });
+
 
   describe('localStorage returns something for location', () => {
     global.localStorage = {
@@ -57,5 +62,5 @@ describe('App functionality', () => {
     it('it should render Current component', () => {
       expect(wrapper.find('Current').length).toEqual(1);
     });
-  })
+  });
 });

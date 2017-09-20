@@ -6,7 +6,7 @@ import { shallow, mount } from 'enzyme';
 describe('App functionality', () => {
   let wrapper;
 
-  describe('localStorage doesnt return something for location', () =>{
+  describe('localStorage doesnt return something for location', () => {
 
     global.localStorage = {
       getItem: () => false,
@@ -15,7 +15,7 @@ describe('App functionality', () => {
     global.fetch = jest.fn(() => {
       return Promise.resolve({json: () => {Promise.resolve({})}})
     })
-      // then: () => {then: () => {}}
+
 
     beforeEach(() => {
       wrapper = mount(
@@ -24,12 +24,11 @@ describe('App functionality', () => {
     });
 
     it('it should render Search component', () => {
+
+
       expect(wrapper.find('Search').length).toEqual(1);
     });
 
-      // it('it should render Welcome component', () => {
-      //   expect(wrapper.find('.welcomeContainer').length).toEqual(1);
-      // });
   }),
 
   describe('localStorage returns something for location', () => {

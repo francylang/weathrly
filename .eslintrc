@@ -11,6 +11,12 @@
     "quotes": [2, "single"],
     "eol-last": [0],
     "no-mixed-requires": [0],
-    "no-underscore-dangle": [0]
+    "no-underscore-dangle": [0],
+    "no-unused-vars": [0],
+    "arrow-body-style": [0],
+    "prefer-template": [0],
+    "no-else-return": [0],
+    "brace-style": [0],
+    "no-multiple-empty-lines": [0]
   }
 }

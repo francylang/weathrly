@@ -39,9 +39,6 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 1000px) {
-  .weatherApp {
-    /*height: 100%;*/
-  }
 
   .cardContainer {
     height: 100vh;

@@ -6,14 +6,15 @@ import Welcome from '../lib/Components/Welcome/Welcome.js';
 import App from '../lib/Components/App/App.js';
 
 describe('SEARCH', () => {
-
   global.localStorage = {
     getItem: () => false,
   };
 
   global.fetch = jest.fn(() => {
-    return Promise.resolve({json: () => {Promise.resolve({})}})
-  })
+    return Promise.resolve({ json: () => { Promise.resolve({});
+    },
+});
+  });
 
 
   it('should render the search bar when displaying weather report', () => {
@@ -21,5 +22,4 @@ describe('SEARCH', () => {
     const current = component.find('Search');
     expect(current.nodes.length).toEqual(1);
   });
-
 });

@@ -4,13 +4,13 @@ import { shallow, mount } from 'enzyme';
 
 
 
-let mockData = {
+const mockData = {
   day: {
     sevenHourTime: ['1pm', '2pm'],
     sevenHourTemp: ['90', '80'],
     tenDayIcon: ['tstorms', 'rain'],
     sevenDayCondition: ['sunny', 'cloudy'],
-  }
+  },
 
 };
 
@@ -19,25 +19,22 @@ describe('Card Functionality', () => {
   let wrapper;
 
   beforeEach(() => {
-     wrapper = mount(
+    wrapper = mount(
        <HourlyCardContainer
          {...mockData}
        />
      );
-   });
+  });
 
 
-   it('it should render multiple Hourly Cards', () => {
-     const shallowWrapper = shallow (
+  it('it should render multiple Hourly Cards', () => {
+    const shallowWrapper = shallow(
        <HourlyCardContainer
          {...mockData}
-           hour={['1pm','2pm']}
+           hour={['1pm', '2pm']}
        />
-     )
-     console.log(shallowWrapper.debug());
-     const hourlyCards = shallowWrapper.find('HourlyCard');
-     expect(hourlyCards.length).toEqual(2);
-   });
-
-
+     );
+    const hourlyCards = shallowWrapper.find('HourlyCard');
+    expect(hourlyCards.length).toEqual(2);
+  });
 });

@@ -20,13 +20,13 @@ beforeEach( () => {
 })
 
 it('should render hour', () => {
-  const hourTime = wrapper.find('.time');
+  const hourTime = wrapper.find('.hourTime');
   expect(hourTime.text()).toEqual('10 PM');
 })
 
 it('should render temp', () => {
-  const hourTemp = wrapper.find('.temp');
-  expect(hourTemp.text()).toEqual('88');
+  const hourTemp = wrapper.find('.tempCtnr');
+  expect(hourTemp.text()).toEqual('88°');
 })
 
 it('should render icon', () => {

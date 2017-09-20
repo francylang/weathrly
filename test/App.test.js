@@ -6,8 +6,7 @@ import { shallow, mount } from 'enzyme';
 describe('App functionality', () => {
   let wrapper;
 
-  describe('localStorage doesnt return something for location', () =>{
-
+  describe('localStorage doesnt return something for location', () => {
     global.localStorage = {
       getItem: () => false,
     };

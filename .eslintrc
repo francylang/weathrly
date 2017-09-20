@@ -17,6 +17,7 @@
     "prefer-template": [0],
     "no-else-return": [0],
     "brace-style": [0],
-    "no-multiple-empty-lines": [0]
+    "no-multiple-empty-lines": [0],
+    "no-alert": [0]
   }
 }

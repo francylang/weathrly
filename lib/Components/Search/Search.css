@@ -49,7 +49,8 @@
 .suggestions {
   display: block;
   height: auto;
-  background-color: gray;
+  color: #979797;
+  background-color: #fff;
   z-index: 3;
   width: 260px;
 
@@ -60,4 +61,5 @@
   list-style-type: none;
   margin-left: -30px;
   padding: 2px 0;
+  z-index: 999 important!
 }

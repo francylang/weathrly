@@ -25,24 +25,25 @@ it('should render time', () => {
   expect(dayTime.text()).toEqual('1 PM');
 })
 
-it('should render temp high', () => {
+it('should render daily temps', () => {
   const dayTempHigh = wrapper.find('.dayHigh');
-  expect(dayTempHigh.text()).toEqual('88');
+  expect(dayTempHigh.text()).toEqual('85');
 })
 
-it('should render temp low', () => {
-  const dayIcon = wrapper.find('.time');
-  expect(dayIcon.text()).toEqual('');
-})
+
+// it('should render temp low', () => {
+//   const dayIcon = wrapper.find('.time');
+//   expect(dayIcon.text()).toEqual('');
+// })
 
 it('should render day icon', () => {
-  const condition = wrapper.find('.time');
-  expect(condition.text()).toEqual('party cloudy');
+  const condition = wrapper.find('.dailyWeatherIcons');
+  expect(condition.text()).toEqual('');
 })
 
 it('should render day condition', () => {
-  const condition = wrapper.find('.time');
-  expect(condition.text()).toEqual('party cloudy');
+  const condition = wrapper.find('.dayCondition');
+  expect(condition.text()).toEqual('partly cloudy');
 })
 
 })

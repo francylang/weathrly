@@ -2,34 +2,19 @@ import React from 'react';
 import HourlyCardContainer from '../lib/Components/HourlyCardContainer/HourlyCardContainer.js';
 import { shallow, mount } from 'enzyme';
 
-
-
-let mockData = {
-  day: {
-    sevenHourTime: ['1pm', '2pm'],
-    sevenHourTemp: ['90', '80'],
-    tenDayIcon: ['tstorms', 'rain'],
-    sevenDayCondition: ['sunny', 'cloudy'],
-  }
-
-};
-
-
 describe('Card Functionality', () => {
   let wrapper;
 
-  beforeEach(() => {
-     wrapper = mount(
+  
+
+  it('it should render multiple Hourly Cards', () => {
+    wrapper = shallow(
+
        <HourlyCardContainer
-         {...mockData}
+         hour={['1pm', '2pm']}
        />
      );
-   });
-
-
-   it('it should render multiple Hourly Cards', () => {
-     const hourlyCards = wrapper.find('HourlyCard').length;
-     expect(hourlyCards).toEqual(2);
+     expect(wrapper.find('.hourlyCardContainer').length).toEqual(1);
    });
 
 

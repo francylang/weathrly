@@ -25,35 +25,16 @@ describe('SEARCH', () => {
   });
 
 
-
-
-
-
-
-
-
-//   it('should change state based on the input', () => {
-//      const search = mount(<Search />);
-//      const input = search.find('input');
-//      expect(search.state('location')).toEqual('');
-//      const inputValue = { target: { value: 'Baton Rouge' } };
-// })
-
-
-  // it('should change state based on the input', () => {
-  //   const search = mount(<Search />);
-  //   const input = search.find('input');
-  //
-  //
-  //   expect(search.state('input')).toEqual('');
-  //   const inputValue = { target: { value: 'louisville, ky' } };
-  //   input.simulate('change', inputValue);
-  //   expect(search.state('location')).toEqual('louisville, ky');
-  // });
-
-
-
-
+  it('should change state based on the input', () => {
+    const search = shallow(<Search />);
+    // search.setState({ suggestions:  })
+    const input = search.find('input');
+    expect(input.text()).toEqual('');
+    expect(search.state('locInput')).toEqual('');
+    search.setState({locInput: 'louisville, ky'})
+    input.simulate('change');
+    expect(search.state('locInput')).toEqual('louisville, ky');
+  });
 
 
   it('should render the search bar when displaying weather report', () => {
@@ -74,23 +55,4 @@ describe('SEARCH', () => {
     btn.simulate('click')
     expect(mkFun).toHaveBeenCalledTimes(1)
   });
-
-  it('state should change after click', () => {
-    const mkFun = jest.fn()
-    wrapper = mount(<Search handleSearch={mkFun} />);
-
-    const inputBox = wrapper.find('.search')
-    const button = wrapper.find('button')
-
-    inputBox.simulate('change', {which: 'a'});
-    button.simulate('click');
-
-    expect(wrapper.find('.search')).toBeDefined();
-    expect(wrapper.instance().state.location).toEqual('a')
-  })
-
-
-
-
-
 });

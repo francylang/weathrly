@@ -13,11 +13,9 @@
     "url": "https://github.com/turingschool-examples/react-starter-kit.git"
   },
   "jest": {
-
-    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"},
-
-
-
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
+    },
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
@@ -61,5 +59,8 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react-z-index": "^2.3.0"
   }
 }

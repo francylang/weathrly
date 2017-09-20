@@ -31,10 +31,6 @@
   background-color: #F5F7FA;
 }
 
-.searchApp {
-  width: 33%
-}
-
 @media only screen and (max-width: 2000px) and (min-width: 1200px) {
 
   .weatherApp {

@@ -2,7 +2,6 @@
   display: block;
   align-self: flex-start;
   flex-wrap: wrap;
-  /*position: relative;*/
   min-height: 35px;
   height: 30px;
   margin: 10px;
@@ -48,11 +47,12 @@
 }
 
 .suggestions {
-  border: 1px solid red;
   display: block;
   height: auto;
   background-color: gray;
   z-index: 3;
+  width: 260px;
+
 
 }
 

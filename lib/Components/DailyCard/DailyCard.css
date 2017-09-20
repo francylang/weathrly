@@ -17,7 +17,6 @@
 
 .card:hover {
   border: 2px solid #4A90E2;
-
 }
 
 .dayHigh,
@@ -51,6 +50,13 @@
   margin: 5px 0px;
   color: #979797;
 }
+
+
+.dailyWeatherIcons:hover {
+  color: #4A90E2;
+
+}
+
 
 .dayCondition {
   color: #979797;

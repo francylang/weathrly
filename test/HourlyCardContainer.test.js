@@ -5,8 +5,6 @@ import { shallow, mount } from 'enzyme';
 describe('Card Functionality', () => {
   let wrapper;
 
-  
-
   it('it should render multiple Hourly Cards', () => {
     wrapper = shallow(
 
@@ -16,6 +14,5 @@ describe('Card Functionality', () => {
      );
      expect(wrapper.find('.hourlyCardContainer').length).toEqual(1);
    });
-
 
 });

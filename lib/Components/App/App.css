@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*align-items: center;*/
   background-color: #F5F7FA;
   height: fit-content;
 }
@@ -55,6 +54,9 @@
     flex-direction: column-reverse;
     width: 100%;
   }
+
+  /*.searchBarMedia {
+  }*/
 
   .mainCard {
     width: 100%;

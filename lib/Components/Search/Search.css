@@ -63,3 +63,9 @@
   margin-left: -30px;
   padding: 2px 0;
 }
+
+.searchDropDown:hover {
+  background: #979797;
+  color: #fff;
+
+}

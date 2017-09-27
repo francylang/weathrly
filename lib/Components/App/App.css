@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*align-items: center;*/
   background-color: #F5F7FA;
   height: fit-content;
 }
@@ -18,7 +17,7 @@
   width: 40%;
   padding: 30px 10px;
   color: #fff;
-  background: linear-gradient(0deg, #4A90E2, #499bea 40%, #76b5ef  );
+  background: linear-gradient(0deg, #4A90E2, #499bea 40%, #76b5ef);
   height: 100vh;
 
 }
@@ -55,6 +54,9 @@
     flex-direction: column-reverse;
     width: 100%;
   }
+
+  /*.searchBarMedia {
+  }*/
 
   .mainCard {
     width: 100%;
